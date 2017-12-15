@@ -343,7 +343,7 @@ h1 {
 	font-family: Lora, Georgia, serif;
 	font-size: 38.4px;
 	font-size: 2.4rem;
-	font-style: italic;
+//	font-style: italic;
 }
 
 h2 {
@@ -1917,12 +1917,13 @@ blockquote
 		margin-bottom: 20px;
 		margin-top: 40px;
 	}
+        
 	.site-content .content-area {
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 20px;
 		padding-right: 20px;
-		width: 66%;
+		width: 100%;
 	}
 	.pique-sidebar .content-area {
 		float: right;
@@ -2495,7 +2496,7 @@ blockquote
 
 /* Hero area (the "home" page, as it were) */
 #pique-hero .pique-panel-content {
-	padding-top: 8em;
+/*	padding-top: 8em;   */
 }
 #pique-hero .pique-panel-content .entry-content {
 	text-align: center;
@@ -2513,7 +2514,7 @@ blockquote
 }
 @media (min-width: 768px) {
 	#pique-hero .pique-panel-content .entry-content {
-		padding-top: 2em;
+/*		padding-top: 2em;       */
 	}
 }
 

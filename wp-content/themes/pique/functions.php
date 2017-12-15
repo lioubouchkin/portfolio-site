@@ -199,7 +199,7 @@ function pique_fonts_url() {
 	endif;
 
 	return $fonts_url;
-}
+}	
 
 /**
  * Enqueue Google Fonts for custom headers
@@ -221,6 +221,9 @@ function pique_scripts() {
 	wp_enqueue_script( 'pique-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20120206', true );
 	wp_enqueue_script( 'pique-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130115', true );
 	wp_enqueue_script( 'pique-header', get_template_directory_uri() . '/assets/js/header.js', array( 'jquery', 'waypoints' ), '20151030', true );
+	// Scroll effects on pages
+	wp_enqueue_script( 'scrollTo', get_template_directory_uri() . '/assets/js/jquery.scrollTo.min.js', array ('jquery'),'20151030', true );
+	wp_enqueue_script( 'scroller', get_template_directory_uri() . '/assets/js/scroller.js', array('scrollTo'),'',true );
 
 	// Scroll effects (only loaded on front page)
 	if ( pique_is_frontpage() ) :

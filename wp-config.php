@@ -90,3 +90,10 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/**	include js into pages
+* @link https://developer.wordpress.org/themes/basics/including-css-javascript/
+*/
+// wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/jquery.localScroll.min.js', array (),'' , true);
+// wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/jquery.localScroll.min.js', array ( 'jquery', 'jquery.scrollTo.min.js' ),'' , true);
+// wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/scroller.js', array ( 'jquery', 'jquery.scrollTo.min.js', 'jquery.localScroll.min.js' ), '' , true);
