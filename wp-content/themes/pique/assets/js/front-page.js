@@ -8,7 +8,7 @@
 	function adjustHero() {
 		var piqueHeaderHeight = $( '#masthead' ).height();
 		var piqueHeroContent = $( '#pique-hero' ).find( '.pique-panel-content' );
-		$( piqueHeroContent ).css( 'padding-top', piqueHeaderHeight );
+		$( piqueHeroContent ).css( 'padding-top', piqueHeaderHeight/2 );
 	}
 
 	/*

@@ -2308,7 +2308,7 @@ blockquote
 }
 .pique-panel-content .entry-content {
 	margin: 1em auto;
-	max-width: 700px;
+	max-width: 1100px;
 	text-align: left;
 }
 .pique-panel-content form {
@@ -3773,3 +3773,6 @@ figure {
 .tiled-gallery-caption {
 	text-shadow: none;
 }
+
+
+/*  temp custom styles   */
